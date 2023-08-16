@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>623</width>
+    <height>824</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">#centralwidget{
+border-image: url(:/men/Menu-PNG-File.png);}</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="pushButton_CORBA">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>300</y>
+      <width>161</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>ÇORBALAR</string>
+    </property>
+    <property name="icon">
+     <iconset resource="sembol.qrc">
+      <normaloff>:/cor/recipesoupicon_109875.ico</normaloff>:/cor/recipesoupicon_109875.ico</iconset>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_EV">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>390</y>
+      <width>161</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>EV YEMEKLERİ</string>
+    </property>
+    <property name="icon">
+     <iconset resource="sembol.qrc">
+      <normaloff>:/evy/Dish_Pasta_Spaghetti_26373.ico</normaloff>:/evy/Dish_Pasta_Spaghetti_26373.ico</iconset>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_PIZZA">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>480</y>
+      <width>161</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>PİZZA</string>
+    </property>
+    <property name="icon">
+     <iconset resource="sembol.qrc">
+      <normaloff>:/piz/pizza_food_fast_food_italian_food_icon_208020.ico</normaloff>:/piz/pizza_food_fast_food_italian_food_icon_208020.ico</iconset>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_HAMBURGER">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>570</y>
+      <width>161</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>HAMBURGER</string>
+    </property>
+    <property name="icon">
+     <iconset resource="sembol.qrc">
+      <normaloff>:/ham/32382hamburger_98925.ico</normaloff>:/ham/32382hamburger_98925.ico</iconset>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_TATLILAR">
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>350</y>
+      <width>161</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>TATLILAR</string>
+    </property>
+    <property name="icon">
+     <iconset resource="sembol.qrc">
+      <normaloff>:/tat/recipedessertcakeicon_109876.ico</normaloff>:/tat/recipedessertcakeicon_109876.ico</iconset>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_ICECEKLER">
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>440</y>
+      <width>161</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>İÇECEKLER</string>
+    </property>
+    <property name="icon">
+     <iconset resource="sembol.qrc">
+      <normaloff>:/ic/Sex_on_the_Beach_25441.ico</normaloff>:/ic/Sex_on_the_Beach_25441.ico</iconset>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>623</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources>
+  <include location="sembol.qrc"/>
+ </resources>
+ <connections/>
+</ui>

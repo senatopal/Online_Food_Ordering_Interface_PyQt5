@@ -1,0 +1,23 @@
+<RCC>
+  <qresource prefix="ham">
+    <file>32382hamburger_98925.ico</file>
+  </qresource>
+  <qresource prefix="men">
+    <file>Menu-PNG-File.png</file>
+  </qresource>
+  <qresource prefix="ic">
+    <file>Sex_on_the_Beach_25441.ico</file>
+  </qresource>
+  <qresource prefix="tat">
+    <file>recipedessertcakeicon_109876.ico</file>
+  </qresource>
+  <qresource prefix="piz">
+    <file>pizza_food_fast_food_italian_food_icon_208020.ico</file>
+  </qresource>
+  <qresource prefix="evy">
+    <file>Dish_Pasta_Spaghetti_26373.ico</file>
+  </qresource>
+  <qresource prefix="cor">
+    <file>recipesoupicon_109875.ico</file>
+  </qresource>
+</RCC>
